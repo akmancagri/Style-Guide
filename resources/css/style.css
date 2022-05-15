@@ -1,0 +1,246 @@
+html,body{
+    margin:0;
+    padding:0;
+    background-color: #050A30;
+    font-family: 'Consolas',monospace;
+
+}
+.page-container{
+    width: 90%;
+    margin:50px auto 40px auto;
+    background-color: #fdfdfd;
+    border-radius: 10px;
+}
+.header{
+    background-image: url("https://images.hdqwalls.com/wallpapers/aurora-borealis-northern-lights-4k-kr.jpg");
+    background-size: cover;
+    background-position: center 65%;
+    height: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.header h1{
+    color:#fff;
+    font-size: 3em;
+    padding-top: 50px;
+    text-align: center;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+.header p{
+    text-align: center;
+    color:#050A30;
+    position:relative;
+    top:-25px;
+    font-size: 20px;
+}
+nav{
+    width: 90%;
+    margin:0 auto;
+    padding: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 2px solid #000;
+    letter-spacing: 2px;
+}
+nav li{
+    display: inline;
+    font-size: 25px;
+}
+nav a{
+    text-decoration: none;
+    padding:15px;
+    color:#050A30;
+    transition: .3s;
+}
+nav li+li::before{
+    content: "| ";
+}
+nav a:hover{
+    color:white;
+    background-color: #050A30;
+}
+nav a:active{
+    box-shadow: 0px 3px 5px black;
+}
+h2{
+    width: 60%;
+    padding-left: 20px;
+    background-color: #050A30;
+    color: #fff;
+    padding: 15px;
+    border-top-right-radius: 15px;
+}
+
+.colors-container{
+    display: flex;
+    flex-direction: column;
+}
+.color{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: 2px solid black;
+    padding:20px 0 35px 0;
+}
+.color.blacky{
+    border:none;
+}
+
+ .color div{
+     padding: 50px;
+     width: 60px;
+     height: 60px;
+
+}
+.color p{
+    color:#fff;
+}
+.hex{
+    display: inline-block;
+    font-style: italic;
+    color: #fff;
+}
+.greens .color-1{
+    background-color: #31ED31;
+}
+.greens .color-2{
+    background-color: #10BC10;
+}
+.greens .color-3{
+    background-color: #11A7BB;
+}
+.greens .color-4{
+    background-color: #2AB67B;
+}
+
+.blues .color-1{
+    background-color: #145DA0;
+}
+.blues .color-2{
+    background-color: #0C2D48;
+}
+.blues .color-3{
+    background-color: #2E8BC0;
+}
+.blues .color-4{
+    background-color: #B1D4E0;
+}
+
+.warms .color-1{
+    background-color:#984C20 ;
+}
+.warms .color-2{
+    background-color:#472A10 ;
+}
+.warms .color-3{
+    background-color:#E9B210;
+}
+.warms .color-4{
+    background-color: #CD7630;
+}
+
+.blacky .color-1{
+    background-color:#181410 ;
+}
+.blacky .color-2{
+    background-color:#3B3730 ;
+}
+.blacky .color-3{
+    background-color:#9D9480 ;
+}
+.blacky .color-4{
+    background-color: #8C7460;
+}
+/******************/
+.italic{
+    font-style: italic;
+}
+.bold{
+    font-weight: bold;
+}
+.center{
+    text-align: center;
+}
+h3{
+    text-transform: uppercase;
+}
+.fonts-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px auto 65px auto;
+}
+.font{
+    font-size: 1.4em;
+    text-align: center;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid black;
+    line-height: 25px;
+}
+.font.oswald{
+    font-family: "Oswald",sans-serif;
+}
+.font.indie-flower{
+    font-family: "Indie Flower",cursive;
+}
+.font.dancing-script{
+    font-family: "Dancing Script",cursive;
+}
+.font.noto-serif{
+    font-family: "Noto Serif",serif;
+}
+.font.oleo-script{
+    font-family: 'Oleo Script Swash Caps', cursive;
+    border: none;
+}
+
+/*****************************************/
+.text-style{
+    width:80%;
+    margin:0 auto;
+}
+.text-style h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+}
+span.info{
+    font-size:initial;
+    display: block;
+    border-top: 2px solid rgba(0,0,0,0.6);
+    border-bottom: 2px solid rgba(0,0,0,0.6);
+    padding: 8px 0;
+    font-weight: bold;
+    text-align: center;
+}
+.text-style p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.footer{
+    position: relative;
+    bottom: 0;
+    height: 320px;
+    background-image: url("https://static-cse.canva.com/blob/679795/Ebony_Set10_24.40a45b2c.png");
+    background-size: cover;
+    background-position: center 20%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top:50px;
+
+}
+.footer h4{
+    position: relative;
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    padding: 0px 40px;
+    top:90px;
+}
